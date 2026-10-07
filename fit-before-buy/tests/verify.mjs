@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {runChecks} from '../dist/checks.mjs';
+import {decide,audit} from '../dist/engine.mjs';
+const data=JSON.parse(fs.readFileSync('dist/data.json','utf8'));
+const checks=runChecks(data);
+for(const c of checks)assert.equal(c.passed,true,c.name);
+const report=audit(data,decide(data,'5500-2','116130','US',new Date('2026-10-07')));
+assert.equal(report.sources.length,2);
+assert.equal(report.customerReply.includes('116130'),true);
+assert(report.customerReply.includes('US-market')&&report.customerReply.includes('2026-10-07'));
+const html=fs.readFileSync('dist/index.html','utf8');
+for(const file of ['style.css','app.mjs','favicon.svg'])assert(html.includes(file)&&fs.existsSync('dist/'+file));
+for(const id of ['form','model','sku','region','result','download','copy','notice','export','matrix','sources','run','checks','models','reply'])assert(html.includes(`id="${id}"`),id);
+fs.writeFileSync('dist/verification.json',JSON.stringify({runAt:new Date().toISOString(),datasetReviewedAt:data.reviewedAt,decisionChecks:checks,scope:'Automated decision rules and source-register consistency; no physical product tests or browser interaction tests.',exportVerified:true,localAssetsVerified:true},null,2));
+console.log(`${checks.length}/${checks.length} decision checks passed; audit export structure and local assets verified.`);

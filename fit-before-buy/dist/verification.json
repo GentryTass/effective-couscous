@@ -1,0 +1,129 @@
+{
+  "runAt": "2026-10-07T09:46:49.002Z",
+  "datasetReviewedAt": "2026-10-07",
+  "decisionChecks": [
+    {
+      "name": "Calendar dates must exist",
+      "passed": true
+    },
+    {
+      "name": "Impossible source date blocks a match",
+      "passed": true
+    },
+    {
+      "name": "Invalid current date blocks a match",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 6300 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: P300 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 5300 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 5500 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 5300-2 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 6300-2 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: AM90 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: C909 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 9800 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: C535 / 115115",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: 5500-2 / 116130",
+      "passed": true
+    },
+    {
+      "name": "Documented pair: AM80 / 116130",
+      "passed": true
+    },
+    {
+      "name": "5500 and 5500-2 stay separate",
+      "passed": true
+    },
+    {
+      "name": "Extra suffix stays unresolved",
+      "passed": true
+    },
+    {
+      "name": "Unknown model stays unresolved",
+      "passed": true
+    },
+    {
+      "name": "Other region needs verification",
+      "passed": true
+    },
+    {
+      "name": "Blank input never creates a match",
+      "passed": true
+    },
+    {
+      "name": "Case and outer spaces normalize",
+      "passed": true
+    },
+    {
+      "name": "Unknown SKU never creates a match",
+      "passed": true
+    },
+    {
+      "name": "Stale review requests verification (controlled date)",
+      "passed": true
+    },
+    {
+      "name": "Future review date blocks current certainty",
+      "passed": true
+    },
+    {
+      "name": "Conflicting source blocks recommendation (controlled fixture)",
+      "passed": true
+    },
+    {
+      "name": "Old individual source dates request review",
+      "passed": true
+    },
+    {
+      "name": "Multiple positive SKUs request review without declaring conflict",
+      "passed": true
+    },
+    {
+      "name": "Every documented verdict includes a source",
+      "passed": true
+    },
+    {
+      "name": "Manuals agree with product pages",
+      "passed": true
+    },
+    {
+      "name": "Every source has a manufacturer URL and locator",
+      "passed": true
+    }
+  ],
+  "scope": "Automated decision rules and source-register consistency; no physical product tests or browser interaction tests.",
+  "exportVerified": true,
+  "localAssetsVerified": true
+}

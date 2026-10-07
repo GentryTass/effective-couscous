@@ -1,0 +1,105 @@
+{
+  "reviewedAt": "2026-10-07",
+  "scope": "Winix America documentation; genuine filters A and H. Do not extend matches to regional suffixes or aftermarket products.",
+  "sources": [
+    {
+      "id": "WA",
+      "title": "Winix Filter A \u2013 115115",
+      "url": "https://www.winixamerica.com/product/filter-a-115115/",
+      "locator": "Product compatibility bullet and Description; retrieved lines 345 and 366",
+      "type": "Manufacturer product page",
+      "revision": "Not stated",
+      "reviewedAt": "2026-10-07",
+      "access": "Read via web retrieval",
+      "models": [
+        "6300",
+        "P300",
+        "5300",
+        "5500",
+        "5300-2",
+        "6300-2",
+        "AM90",
+        "C909",
+        "9800",
+        "C535"
+      ],
+      "sku": "115115",
+      "lastRetrievalAttempt": {
+        "date": "2026-10-07",
+        "outcome": "Manufacturer compatibility list re-read successfully; all ten models agree with existing record."
+      }
+    },
+    {
+      "id": "WH",
+      "title": "Winix Filter H \u2013 116130",
+      "url": "https://www.winixamerica.com/product/filter-h-116130/",
+      "locator": "Compatibility bullet and Description",
+      "type": "Manufacturer product page",
+      "revision": "Not stated",
+      "reviewedAt": "2026-10-07",
+      "access": "Read via web retrieval",
+      "models": [
+        "5500-2",
+        "AM80"
+      ],
+      "sku": "116130",
+      "lastRetrievalAttempt": {
+        "date": "2026-10-07",
+        "outcome": "HTTP 429 rate limit on refresh. Retained previously reviewed snapshot; not newly reverified."
+      }
+    },
+    {
+      "id": "M53",
+      "title": "5300-2 user manual",
+      "url": "https://www.winixamerica.com/wp-content/uploads/2025/03/5300-2_User-Manual_V4-V2.pdf",
+      "locator": "PDF page 1, Unit Specifications, Replacement Filter",
+      "type": "Manufacturer manual",
+      "revision": "V4-V2 in filename; publication date not established",
+      "reviewedAt": "2026-10-07",
+      "access": "Read via web retrieval",
+      "models": [
+        "5300-2"
+      ],
+      "sku": "115115"
+    },
+    {
+      "id": "M55",
+      "title": "5500-2 user manual",
+      "url": "https://www.winixamerica.com/wp-content/uploads/2025/03/5500-2_User-Manual_V5-V3.pdf",
+      "locator": "PDF page 2, Unit Specifications, Replacement Filter",
+      "type": "Manufacturer manual",
+      "revision": "2610-0314-00 Rev.05",
+      "reviewedAt": "2026-10-07",
+      "access": "Read via web retrieval",
+      "models": [
+        "5500-2"
+      ],
+      "sku": "116130"
+    },
+    {
+      "id": "M80",
+      "title": "AM80 user manual",
+      "url": "https://www.winixamerica.com/wp-content/uploads/2025/03/AM80_User-Manual_V4-V2.pdf",
+      "locator": "PDF page 1, Unit Specifications, Replacement Filter",
+      "type": "Manufacturer manual",
+      "revision": "V4-V2 in filename; publication date not established",
+      "reviewedAt": "2026-10-07",
+      "access": "Read via web retrieval",
+      "models": [
+        "AM80"
+      ],
+      "sku": "116130"
+    }
+  ],
+  "products": [
+    {
+      "sku": "115115",
+      "name": "Filter A"
+    },
+    {
+      "sku": "116130",
+      "name": "Filter H"
+    }
+  ],
+  "schemaVersion": 2
+}
